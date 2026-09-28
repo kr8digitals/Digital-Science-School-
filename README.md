@@ -1,8 +1,16 @@
-# AFRISTEM Digital Science School — v2.1
+# AFRISTEM Digital Science School — v2.2
 
 The Node.js + React rebuild now includes **launch-readiness operations**: named staff accounts, role-restricted access, payment-attempt protection, durable transactional email, and recovery tooling. The orange / cream / deep-brown / white public website remains intact.
 
 **Status:** working, tested preview. Payment and SMTP credentials are not configured. This is not yet a live deployment, a completed LMS, or a security/compliance certification.
+
+## Hostinger: no-variable initial deployment
+
+The public website now starts with **no custom environment variables**. Optional settings are documented in [CONFIGURATION.md](docs/CONFIGURATION.md), not an auto-imported environment template. The school address defaults to `https://digitalschool.afristemglobal.org`. Build tools are installed even with `npm ci --omit=dev`.
+
+**This starts the public website only.** Programmes, resources and quizzes work. Application/contact forms, uploads, tracking, payments and staff access are explicitly unavailable until private persistent storage and owner credentials are configured. A visible notice explains this; blocked API requests return 503 and never pretend to save records. No temporary admissions database or public administrator-claim form is created.
+
+The full admissions/staff functionality remains included. Secure storage and owner authentication cannot be manufactured by a Git push. Existing full deployments must retain their real storage and credential configuration when upgrading.
 
 ## Start locally
 
@@ -22,15 +30,12 @@ Use only fictional learner details and test PDFs in development.
 ## Build and run
 
 ```bash
-cp .env.example .env
-# Set ADMIN_EMAIL and a unique ADMIN_PASSWORD of 16–256 characters for first startup.
-# Set PUBLIC_URL to your actual HTTPS origin when preparing external integrations.
 npm run check:config
 npm run build
 npm start
 ```
 
-Use a private persistent volume for `DATA_DIR`. The server listens on `0.0.0.0:3000`, serves frontend and API on the same origin, and uses no browser-side localhost URLs. `npm start` uses the cross-platform production entry point `app.js`; it refuses to start without the compiled frontend. Use the platform-provided `PORT` on managed hosting.
+With no `DATA_DIR`, production starts in stateless public-only mode. To activate admissions/staff operations, use the private persistent storage and first-owner settings in `docs/CONFIGURATION.md`. Use a private persistent volume for `DATA_DIR`. The server listens on `0.0.0.0:3000`, serves frontend and API on the same origin, and uses no browser-side localhost URLs. `npm start` uses the cross-platform production entry point `app.js`; it refuses to start without the compiled frontend. Use the platform-provided `PORT` on managed hosting.
 
 Keep `LAUNCH_MODE=preview` until actual launch approval. Compilation/production serving and live business operation are separate settings.
 
@@ -83,7 +88,7 @@ The amount is fixed server-side at 100,000 kobo (₦1,000 NGN), for the admissio
 
 ### Transactional email — off by default
 
-Configure the SMTP fields in `.env.example`, an HTTPS `PUBLIC_URL`, and set `MAIL_DELIVERY=smtp`. TLS is required (implicit TLS when `SMTP_SECURE=true`, otherwise STARTTLS with certificate verification).
+Configure the SMTP fields in `docs/CONFIGURATION.md`, an HTTPS `PUBLIC_URL`, and set `MAIL_DELIVERY=smtp`. TLS is required (implicit TLS when `SMTP_SECURE=true`, otherwise STARTTLS with certificate verification).
 
 - Preview SMTP requires `MAIL_TEST_RECIPIENT`; **every** message is redirected there and subject-prefixed. No preview recipient list is mailed.
 - Live SMTP refuses a leftover preview-redirect address.
@@ -126,9 +131,9 @@ The recovery tool never creates/elevates or reactivates accounts. It writes a te
 
 **Hostinger:** follow [the full-stack deployment guide](docs/DEPLOY-HOSTINGER.md). Select the **Express** backend preset, not React/Vite static hosting. Build with `npm run build`, start with `npm start`, entry file `app.js`, Node 22. Keep the entire application root as the backend output.
 
-Managed Hostinger deployments overwrite their build folders. Use `HOSTING_TARGET=hostinger-managed`, an **absolute private `DATA_DIR` outside the application, `hbuilds` and `public_html`**, and set `PERSISTENT_STORAGE_CONFIRMED=true` only after verifying persistence with the host. The app rejects unsafe configured paths. If the plan cannot provide persistent local storage, use the Hostinger VPS recipe or migrate storage before collecting real records. Merely connecting an external database in hPanel does not migrate this SQLite application.
+For **full operational activation**, managed Hostinger deployments overwrite their build folders. Use `HOSTING_TARGET=hostinger-managed`, an **absolute private `DATA_DIR` outside the application, `hbuilds` and `public_html`**, and set `PERSISTENT_STORAGE_CONFIRMED=true` only after verifying persistence with the host. The app rejects unsafe configured paths. If the plan cannot provide persistent local storage, use the Hostinger VPS recipe or migrate storage before collecting real records. Merely connecting an external database in hPanel does not migrate this SQLite application.
 
-Production live mode and either Hostinger target also require explicit persistent-storage configuration. `npm run check:config` validates production settings without printing secrets.
+Full production mode requires explicit persistent-storage configuration. Public-only startup is deliberately stateless and needs none. `npm run check:config` validates production settings without printing secrets.
 
 
 `Dockerfile`, `compose.yaml` and `deploy/Caddyfile` provide a Node 22 app + HTTPS reverse-proxy starting point. Set a domain you own in `SCHOOL_DOMAIN`, point DNS at the server, configure `.env` and use a persistent volume.
@@ -142,14 +147,15 @@ Docker deployment was not executed in this workspace. **Use one app instance wit
 ## Test commands
 
 ```bash
-npm test                  # 34 validation/integration/recovery/hosting tests; isolated DBs and test services
+npm test                  # 39 validation/integration/recovery/hosting tests; isolated DBs and test services
 npm run build
 npm run test:deploy        # isolated production entry, assets, auth boundary and restart persistence
 npm audit --omit=dev
 # Run the preview server separately, then:
 npx playwright install --with-deps chromium
 npm run test:e2e           # public-site and admissions flows
-npm run test:staff         # staff lifecycle and responsive workspace flows
+npm run test:staff         # staff lifecycle and responsive workspace flows (configured operational preview)
+npm run test:public        # 11 public-only routes × phone/tablet/desktop; run against public-only startup
 ```
 
 Browser tests create fictional development records. Do not point them at a live school. Unit/integration payment and email tests use controlled services: they do not prove live Paystack settlement or SMTP inbox delivery.

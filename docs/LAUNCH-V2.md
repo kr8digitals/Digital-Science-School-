@@ -2,7 +2,13 @@
 
 **28 September 2026. This supersedes the operational sections of the v1 handover.**
 
-## Hostinger preparation update — v2.1
+## Zero-variable public startup — v2.2
+
+The initial public website no longer requires custom environment variables or an owner account. It uses no database and rejects application/contact submissions, uploaded PDFs, tracking, staff access and payments until operational setup is complete. These services remain implemented and are not advertised as active during public-only startup. Optional variable documentation has moved from the environment template to `CONFIGURATION.md`. Build dependencies now support production-only package installation.
+
+The v2.2 local checks passed 39 tests, a production-only install/build, and production smoke tests for both public-only and configured operational startup. Hostinger storage and deployment still require verification. No secrets are built into the repository.
+
+## Hostinger preparation update — v2.1 (historical)
 
 See [DEPLOY-HOSTINGER.md](DEPLOY-HOSTINGER.md) for current deployment settings. This update adds a cross-platform production entry point, Node 22 selection, private persistent-storage guards, five hosting configuration tests, and a production build/restart smoke test. Storage guards require `DATA_DIR` and `PERSISTENT_STORAGE_CONFIRMED=true` for live production and Hostinger targets. The managed-hosting path must be outside deployment-managed folders.
 

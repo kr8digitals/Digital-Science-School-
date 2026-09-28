@@ -12,10 +12,9 @@ tests/*.png
 tests/*results.json
 tests/*results.txt
 
-# Environment and credentials: examples are the only exception
+# Environment and credentials: never committed
 .env
 .env.*
-!.env.example
 .netrc
 .git-credentials
 *credentials*.json

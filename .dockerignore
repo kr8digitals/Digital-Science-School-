@@ -5,7 +5,6 @@ backups
 uploads
 .env
 .env.*
-!.env.example
 .git
 .git-credentials
 .netrc

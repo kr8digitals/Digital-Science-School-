@@ -59,6 +59,14 @@ try{
  assert.equal(reopened.prepare('SELECT count(*) AS total FROM applications WHERE id=?').get('EDU-DEPLOY-QA').total,1);
  assert.equal(reopened.prepare('SELECT path FROM documents WHERE id=?').get(document).path,pdf);
  assert.match(fs.readFileSync(pdf,'utf8'),/^%PDF/);assert.equal(reopened.pragma('integrity_check',{simple:true}),'ok');reopened.close();
- console.log('Deployment smoke passed: production entry, compiled routes/assets, protected staff API, clean shutdown, database and PDF preservation across restart.');
+ // Simulate a new Hostinger deployment with no storage or owner variables.
+ for(const name of ['DATA_DIR','PERSISTENT_STORAGE_CONFIRMED','ADMIN_EMAIL','ADMIN_PASSWORD','PUBLIC_URL'])delete env[name];
+ await start();
+ const publicHealth=await (await fetch(base+'/api/health')).json();assert.equal(publicHealth.mode,'public-only');assert.equal(publicHealth.admissionsReady,false);
+ assert.equal((await fetch(base+'/')).status,200);
+ assert.equal((await (await fetch(base+'/api/content')).json()).operationsReady,false);
+ assert.equal((await fetch(base+'/api/applications/student',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'})).status,503);
+ assert.equal((await fetch(base+'/api/admin/me')).status,503);await stop();
+ console.log('Deployment smoke passed: zero-variable public startup; configured full startup; compiled routes/assets; protected staff API; clean shutdown; database and PDF preservation across restart.');
  console.log('This local test does not verify Hostinger filesystem persistence across redeploys.');
 }finally{await stop();fs.rmSync(temporary,{recursive:true,force:true});}

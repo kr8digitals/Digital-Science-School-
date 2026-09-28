@@ -1,6 +1,6 @@
 {
   "name": "afristem-digital-school",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "main": "app.js",
   "directories": {
     "doc": "docs"
@@ -17,7 +17,8 @@
     "staff:recover": "node scripts/recover-staff.mjs",
     "check:config": "node scripts/check-config.mjs",
     "test:staff": "node tests/staff-flows.mjs",
-    "test:deploy": "node scripts/deployment-smoke.mjs"
+    "test:deploy": "node scripts/deployment-smoke.mjs",
+    "test:public": "node tests/public-startup.mjs"
   },
   "keywords": [],
   "author": "",
@@ -36,12 +37,12 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-router-dom": "^7.18.4",
-    "zod": "^4.6.5"
+    "zod": "^4.6.5",
+    "vite": "^6.4.3",
+    "@vitejs/plugin-react": "^4.7.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.63.0",
-    "@vitejs/plugin-react": "^4.7.0",
-    "vite": "^6.4.3"
+    "@playwright/test": "^1.63.0"
   },
   "private": true,
   "type": "module",
