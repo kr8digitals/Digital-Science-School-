@@ -1,0 +1,7 @@
+import { chromium } from '@playwright/test';import fs from 'node:fs';
+const browser=await chromium.launch();const page=await browser.newPage();
+const routes=['/','/about','/programmes','/programmes/primary','/programmes/junior','/programmes/senior','/programmes/exams','/how-it-works','/teachers','/resources','/resources/study-plan','/resources/fractions','/resources/science-everyday','/resources/exam-strategy','/resources/coding-first','/resources/online-safety','/faqs','/fees','/contact','/portal','/privacy','/terms','/safeguarding'];
+const pages=[];
+for(const route of routes){await page.goto('http://127.0.0.1:3000'+route);await page.waitForSelector('main h1');const blocks=await page.locator('main').evaluate(el=>[...el.querySelectorAll('h1,h2,h3,h4,p,summary,li,.eyebrow')].filter(x=>!x.closest('form')).map(x=>({tag:x.tagName.toLowerCase(),text:x.textContent.replace(/\s+/g,' ').trim()})).filter(x=>x.text));pages.push({route,blocks});}
+fs.writeFileSync('docs/website-copy.json',JSON.stringify(pages,null,2));fs.writeFileSync('docs/WEBSITE-COPY.md','# AFRISTEM — Website copy review\n\nPrepared 28 September 2026. This export contains the rewritten public page copy. Review facts, fees and all draft policies before launch.\n\n'+pages.map(p=>'\n---\n\n## Page: '+p.route+'\n\n'+p.blocks.map(b=>/^h/.test(b.tag)?'### '+b.text:b.tag==='summary'?'**'+b.text+'**':b.tag==='li'?'- '+b.text:b.text).join('\n\n')).join('\n'));
+await browser.close();

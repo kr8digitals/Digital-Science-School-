@@ -1,0 +1,34 @@
+[
+  {
+    "archive": "digital-school.local_wpvivid-3f90017811abb_2026-09-09-15-43_backup_db.zip",
+    "bytes": 433821
+  },
+  {
+    "archive": "digital-school.local_wpvivid-3f90017811abb_2026-09-09-15-43_backup_themes.zip",
+    "bytes": 26476023
+  },
+  {
+    "archive": "digital-school.local_wpvivid-3f90017811abb_2026-09-09-15-43_backup_plugin.part001.zip",
+    "bytes": 63698928
+  },
+  {
+    "archive": "digital-school.local_wpvivid-3f90017811abb_2026-09-09-15-43_backup_plugin.part002.zip",
+    "bytes": 1036810
+  },
+  {
+    "archive": "digital-school.local_wpvivid-3f90017811abb_2026-09-09-15-43_backup_uploads.zip",
+    "bytes": 34469404
+  },
+  {
+    "archive": "digital-school.local_wpvivid-3f90017811abb_2026-09-09-15-43_backup_content.zip",
+    "bytes": 419
+  },
+  {
+    "archive": "digital-school.local_wpvivid-3f90017811abb_2026-09-09-15-43_backup_core.zip",
+    "bytes": 23646311
+  },
+  {
+    "archive": "wpvivid_package_info.json",
+    "bytes": 4285
+  }
+]

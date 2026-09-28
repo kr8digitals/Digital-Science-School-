@@ -1,0 +1,43 @@
+# Dependencies and generated artifacts
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.npm/
+*.log
+test-results/
+playwright-report/
+tests/*.png
+tests/*results.json
+tests/*results.txt
+
+# Environment and credentials: examples are the only exception
+.env
+.env.*
+!.env.example
+.netrc
+.git-credentials
+*credentials*.json
+*credential*.txt
+*preview-access*
+*preview-admin*
+*recovery-*.txt
+*.pem
+*.key
+
+# All live data and uploaded documents stay out of Git
+data/*
+!data/.gitkeep
+backups/
+uploads/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# Local archives/editor files
+*.zip
+.DS_Store
+.vscode/
+.idea/

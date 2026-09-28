@@ -1,0 +1,1949 @@
+[
+  {
+    "route": "/",
+    "blocks": [
+      {
+        "tag": "h1",
+        "text": "Big dreams.Strong foundations.Brighter futures."
+      },
+      {
+        "tag": "p",
+        "text": "Not just better grades. A more confident learner. Discover online science education that pairs inspiring lessons with a mentor in your corner."
+      },
+      {
+        "tag": "h3",
+        "text": "Flexible online learning"
+      },
+      {
+        "tag": "p",
+        "text": "A classroom, wherever you are."
+      },
+      {
+        "tag": "h3",
+        "text": "Intensive mentorship"
+      },
+      {
+        "tag": "p",
+        "text": "Someone who sees your potential."
+      },
+      {
+        "tag": "h3",
+        "text": "Science-led discovery"
+      },
+      {
+        "tag": "p",
+        "text": "Learn it. Question it. Apply it."
+      },
+      {
+        "tag": "h3",
+        "text": "Purposeful progress"
+      },
+      {
+        "tag": "p",
+        "text": "Feedback that moves you forward."
+      },
+      {
+        "tag": "div",
+        "text": "FIND THEIR NEXT CHAPTER"
+      },
+      {
+        "tag": "h2",
+        "text": "Every learner has a starting point.Let’s find yours."
+      },
+      {
+        "tag": "p",
+        "text": "From first discoveries to big examinations,there’s a pathway for the way ahead."
+      },
+      {
+        "tag": "h3",
+        "text": "Primary School"
+      },
+      {
+        "tag": "p",
+        "text": "Turn “I don’t understand” into “I can do this.” Build strong foundations and a lasting curiosity for learning."
+      },
+      {
+        "tag": "h3",
+        "text": "Junior Secondary"
+      },
+      {
+        "tag": "p",
+        "text": "Make sense of new concepts. Strengthen core subjects while exploring science, coding and digital skills."
+      },
+      {
+        "tag": "h3",
+        "text": "Senior Secondary"
+      },
+      {
+        "tag": "p",
+        "text": "Go beyond memorising formulas. Understand the sciences and prepare for the opportunities ahead."
+      },
+      {
+        "tag": "h3",
+        "text": "Exam Preparation"
+      },
+      {
+        "tag": "p",
+        "text": "Replace last-minute panic with purposeful revision, exam practice and a plan built around your gaps."
+      },
+      {
+        "tag": "p",
+        "text": "“I can’t do this.”Let’s add a yet."
+      },
+      {
+        "tag": "div",
+        "text": "BEYOND THE CLASSROOM"
+      },
+      {
+        "tag": "h2",
+        "text": "We don’t just teach.We mentor."
+      },
+      {
+        "tag": "p",
+        "text": "A lesson can explain a concept. The right guidance can change how a learner sees themselves. At AFRISTEM, we bring both together."
+      },
+      {
+        "tag": "h3",
+        "text": "Seen as an individual"
+      },
+      {
+        "tag": "p",
+        "text": "We look for the strengths, gaps and goals behind the grades."
+      },
+      {
+        "tag": "h3",
+        "text": "Supported through the hard parts"
+      },
+      {
+        "tag": "p",
+        "text": "Clear feedback, purposeful practice and encouragement to keep going."
+      },
+      {
+        "tag": "h3",
+        "text": "Ready for more than an exam"
+      },
+      {
+        "tag": "p",
+        "text": "Build curiosity, digital confidence and study habits that last."
+      },
+      {
+        "tag": "div",
+        "text": "A CLEAR PATH FORWARD"
+      },
+      {
+        "tag": "h2",
+        "text": "A small first step.A world of possibility."
+      },
+      {
+        "tag": "h3",
+        "text": "Register"
+      },
+      {
+        "tag": "p",
+        "text": "Tell us about the learner, their goals and where they need support."
+      },
+      {
+        "tag": "h3",
+        "text": "Find the right fit"
+      },
+      {
+        "tag": "p",
+        "text": "A diagnostic assessment may help us understand their starting point."
+      },
+      {
+        "tag": "h3",
+        "text": "Get ready"
+      },
+      {
+        "tag": "p",
+        "text": "Receive your timetable, platform guidance and learning expectations."
+      },
+      {
+        "tag": "h3",
+        "text": "Learn & practise"
+      },
+      {
+        "tag": "p",
+        "text": "Join lessons, ask questions and put new ideas to work."
+      },
+      {
+        "tag": "h3",
+        "text": "Grow with guidance"
+      },
+      {
+        "tag": "p",
+        "text": "Use assessments and mentorship to make the next step count."
+      },
+      {
+        "tag": "div",
+        "text": "A LITTLE CURIOSITY GOES A LONG WAY"
+      },
+      {
+        "tag": "h2",
+        "text": "Start learning. For free."
+      },
+      {
+        "tag": "h3",
+        "text": "A little challenge.A new discovery."
+      },
+      {
+        "tag": "p",
+        "text": "Five questions. Instant feedback.See what you already know."
+      },
+      {
+        "tag": "h3",
+        "text": "A study plan you can actually stick to"
+      },
+      {
+        "tag": "p",
+        "text": "Small, focused sessions. Clear goals. A little space to breathe."
+      },
+      {
+        "tag": "h3",
+        "text": "Your first algorithm needs no computer"
+      },
+      {
+        "tag": "p",
+        "text": "Discover the thinking behind code with an everyday task."
+      },
+      {
+        "tag": "div",
+        "text": "GOOD QUESTIONS. CLEAR ANSWERS."
+      },
+      {
+        "tag": "h2",
+        "text": "A little morepeace of mind."
+      },
+      {
+        "tag": "p",
+        "text": "Choosing a learning partner is a big decision.We’re here to help you make it."
+      },
+      {
+        "tag": "summary",
+        "text": "Is AFRISTEM completely online?"
+      },
+      {
+        "tag": "p",
+        "text": "Yes. Lessons and learning activities are delivered online, so learners can join from home. A reliable internet connection and a suitable device are important."
+      },
+      {
+        "tag": "summary",
+        "text": "Are lessons live or recorded?"
+      },
+      {
+        "tag": "p",
+        "text": "Our teaching approach centres on scheduled live lessons, supported by recorded lessons and learning materials. Admissions will confirm the format and timetable for your chosen programme."
+      },
+      {
+        "tag": "summary",
+        "text": "How much does it cost?"
+      },
+      {
+        "tag": "p",
+        "text": "The admission form fee is ₦1,000. Tuition varies by class and programme. Ask admissions for the current tuition, payment schedule and applicable terms before making a payment."
+      },
+      {
+        "tag": "summary",
+        "text": "How do you support parents?"
+      },
+      {
+        "tag": "p",
+        "text": "Our approach includes assessment feedback and parent/guardian progress updates. The dedicated parent dashboard is planned for a later phase; it is not currently available."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      },
+      {
+        "tag": "h3",
+        "text": "A great teacher can change a learner’s story."
+      },
+      {
+        "tag": "p",
+        "text": "Bring your expertise. Share your curiosity. Become a teacher and mentor."
+      }
+    ]
+  },
+  {
+    "route": "/about",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "ROOTED IN AFRICA. OPEN TO POSSIBILITY."
+      },
+      {
+        "tag": "h1",
+        "text": "Potential is everywhere.Opportunity should be, too."
+      },
+      {
+        "tag": "p",
+        "text": "AFRISTEM Digital Science School brings structured online learning and intensive mentorship together—helping young people grow in knowledge, confidence and possibility."
+      },
+      {
+        "tag": "div",
+        "text": "OUR REASON FOR BEING"
+      },
+      {
+        "tag": "h2",
+        "text": "Behind every questionis a mind ready to grow."
+      },
+      {
+        "tag": "p",
+        "text": "Learning is not simply a race through a syllabus. It is the moment an idea makes sense, the courage to ask another question and the satisfaction of solving a problem independently."
+      },
+      {
+        "tag": "p",
+        "text": "We support learners from Primary 4 to Senior Secondary, alongside candidates preparing for WAEC, NECO and JAMB. Our approach connects clear teaching, digital skills and ongoing guidance—without losing the human connection that helps learners thrive."
+      },
+      {
+        "tag": "div",
+        "text": "OUR VISION"
+      },
+      {
+        "tag": "h2",
+        "text": "A future no learnerhas to face alone."
+      },
+      {
+        "tag": "p",
+        "text": "To make quality learning and meaningful mentorship accessible, so every learner can develop the confidence and skills to thrive in a changing world."
+      },
+      {
+        "tag": "div",
+        "text": "OUR MISSION"
+      },
+      {
+        "tag": "h2",
+        "text": "Excellent teaching.Intentional support."
+      },
+      {
+        "tag": "p",
+        "text": "To deliver accessible, engaging online education through structured instruction, technology, continuous assessment and a culture of mentorship that supports academic growth."
+      },
+      {
+        "tag": "div",
+        "text": "WHAT GUIDES US"
+      },
+      {
+        "tag": "h2",
+        "text": "Values we put into practice."
+      },
+      {
+        "tag": "h3",
+        "text": "Excellence"
+      },
+      {
+        "tag": "p",
+        "text": "Teach with purpose. Keep improving."
+      },
+      {
+        "tag": "h3",
+        "text": "Integrity"
+      },
+      {
+        "tag": "p",
+        "text": "Be honest, accountable and responsible."
+      },
+      {
+        "tag": "h3",
+        "text": "Innovation"
+      },
+      {
+        "tag": "p",
+        "text": "Use technology to deepen understanding."
+      },
+      {
+        "tag": "h3",
+        "text": "Mentorship"
+      },
+      {
+        "tag": "p",
+        "text": "Guide the learner, not just the lesson."
+      },
+      {
+        "tag": "h3",
+        "text": "Inclusiveness"
+      },
+      {
+        "tag": "p",
+        "text": "Make room for different starting points."
+      },
+      {
+        "tag": "h3",
+        "text": "Discipline"
+      },
+      {
+        "tag": "p",
+        "text": "Build progress through consistent effort."
+      },
+      {
+        "tag": "h3",
+        "text": "Curiosity"
+      },
+      {
+        "tag": "p",
+        "text": "Ask why. Explore how. Try again."
+      },
+      {
+        "tag": "h3",
+        "text": "Learning works best when learners feel safe."
+      },
+      {
+        "tag": "p",
+        "text": "Respectful communication, guardian involvement and responsible handling of information are central to the school we are building."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/programmes",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "OUR PROGRAMMES"
+      },
+      {
+        "tag": "h1",
+        "text": "The right support.At the right stage."
+      },
+      {
+        "tag": "p",
+        "text": "Strong foundations, scientific thinking and focused exam preparation. Explore a learning pathway built around where you are—and where you want to go."
+      },
+      {
+        "tag": "h3",
+        "text": "Primary School"
+      },
+      {
+        "tag": "p",
+        "text": "Turn “I don’t understand” into “I can do this.” Build strong foundations and a lasting curiosity for learning."
+      },
+      {
+        "tag": "h3",
+        "text": "Junior Secondary"
+      },
+      {
+        "tag": "p",
+        "text": "Make sense of new concepts. Strengthen core subjects while exploring science, coding and digital skills."
+      },
+      {
+        "tag": "h3",
+        "text": "Senior Secondary"
+      },
+      {
+        "tag": "p",
+        "text": "Go beyond memorising formulas. Understand the sciences and prepare for the opportunities ahead."
+      },
+      {
+        "tag": "h3",
+        "text": "Exam Preparation"
+      },
+      {
+        "tag": "p",
+        "text": "Replace last-minute panic with purposeful revision, exam practice and a plan built around your gaps."
+      },
+      {
+        "tag": "h2",
+        "text": "One approach.Room for every learner."
+      },
+      {
+        "tag": "p",
+        "text": "Every pathway combines structured teaching, regular practice and academic mentorship. Subject availability, class schedules and tuition are confirmed by admissions before enrolment."
+      },
+      {
+        "tag": "p",
+        "text": "Joining from outside Nigeria? We welcome enquiries from families worldwide. Let’s first check curriculum alignment and time-zone fit."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/programmes/primary",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "Primary 4–6"
+      },
+      {
+        "tag": "h1",
+        "text": "Big possibilities start with strong foundations."
+      },
+      {
+        "tag": "p",
+        "text": "Help your child feel at home with numbers, words and new ideas. Our Primary programme pairs clear, patient teaching with interactive activities that make learning something to look forward to."
+      },
+      {
+        "tag": "h2",
+        "text": "Knowledge that goes further."
+      },
+      {
+        "tag": "p",
+        "text": "Young learners who need stronger foundations, extra encouragement or a fresh challenge."
+      },
+      {
+        "tag": "li",
+        "text": "Build confidence in reading, communication and mathematics."
+      },
+      {
+        "tag": "li",
+        "text": "Explore science through questions, activities and everyday examples."
+      },
+      {
+        "tag": "li",
+        "text": "Take first steps in coding and responsible technology use."
+      },
+      {
+        "tag": "li",
+        "text": "Develop a steady learning routine with support from a mentor."
+      },
+      {
+        "tag": "h2",
+        "text": "How learning comes to life"
+      },
+      {
+        "tag": "h3",
+        "text": "Primary School"
+      },
+      {
+        "tag": "p",
+        "text": "Primary 4–6"
+      },
+      {
+        "tag": "h4",
+        "text": "Your subjects"
+      },
+      {
+        "tag": "li",
+        "text": "English Language"
+      },
+      {
+        "tag": "li",
+        "text": "Mathematics"
+      },
+      {
+        "tag": "li",
+        "text": "Basic Science and Technology"
+      },
+      {
+        "tag": "li",
+        "text": "Basic Digital Literacy"
+      },
+      {
+        "tag": "li",
+        "text": "Coding"
+      },
+      {
+        "tag": "p",
+        "text": "Tuition varies. Confirm current fees and your timetable with admissions."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/programmes/junior",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "JSS 1–3"
+      },
+      {
+        "tag": "h1",
+        "text": "Build the confidence to ask. The skills to discover."
+      },
+      {
+        "tag": "p",
+        "text": "The move into secondary school brings bigger questions. We help learners connect ideas, think logically and find their voice—with structured teaching and a mentor in their corner."
+      },
+      {
+        "tag": "h2",
+        "text": "Knowledge that goes further."
+      },
+      {
+        "tag": "p",
+        "text": "Junior secondary learners ready to strengthen their foundations and grow more independent."
+      },
+      {
+        "tag": "li",
+        "text": "Strengthen mathematical reasoning and English communication."
+      },
+      {
+        "tag": "li",
+        "text": "Connect scientific ideas to the world around you."
+      },
+      {
+        "tag": "li",
+        "text": "Develop coding, digital literacy and problem-solving skills."
+      },
+      {
+        "tag": "li",
+        "text": "Prepare for school examinations with purposeful practice."
+      },
+      {
+        "tag": "h2",
+        "text": "How learning comes to life"
+      },
+      {
+        "tag": "h3",
+        "text": "Junior Secondary"
+      },
+      {
+        "tag": "p",
+        "text": "JSS 1–3"
+      },
+      {
+        "tag": "h4",
+        "text": "Your subjects"
+      },
+      {
+        "tag": "li",
+        "text": "English Studies"
+      },
+      {
+        "tag": "li",
+        "text": "Mathematics"
+      },
+      {
+        "tag": "li",
+        "text": "Intermediate Science"
+      },
+      {
+        "tag": "li",
+        "text": "Digital Technology"
+      },
+      {
+        "tag": "li",
+        "text": "Coding"
+      },
+      {
+        "tag": "p",
+        "text": "Tuition varies. Confirm current fees and your timetable with admissions."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/programmes/senior",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "SSS 1–3"
+      },
+      {
+        "tag": "h1",
+        "text": "Understand deeply. Think independently. Go further."
+      },
+      {
+        "tag": "p",
+        "text": "From a tricky equation to a complex scientific concept, understanding changes everything. Our Senior Secondary programme combines rigorous subject teaching, practical demonstrations and guided revision to prepare learners for their next step."
+      },
+      {
+        "tag": "h2",
+        "text": "Knowledge that goes further."
+      },
+      {
+        "tag": "p",
+        "text": "Science-focused secondary learners preparing for external examinations and higher education."
+      },
+      {
+        "tag": "li",
+        "text": "Develop a deeper understanding of mathematics and the sciences."
+      },
+      {
+        "tag": "li",
+        "text": "Apply concepts to unfamiliar questions and real problems."
+      },
+      {
+        "tag": "li",
+        "text": "Build examination technique through practice and feedback."
+      },
+      {
+        "tag": "li",
+        "text": "Explore future study and career pathways with a mentor."
+      },
+      {
+        "tag": "h2",
+        "text": "How learning comes to life"
+      },
+      {
+        "tag": "h3",
+        "text": "Senior Secondary"
+      },
+      {
+        "tag": "p",
+        "text": "SSS 1–3"
+      },
+      {
+        "tag": "h4",
+        "text": "Your subjects"
+      },
+      {
+        "tag": "li",
+        "text": "English Studies"
+      },
+      {
+        "tag": "li",
+        "text": "Mathematics"
+      },
+      {
+        "tag": "li",
+        "text": "Digital Technology"
+      },
+      {
+        "tag": "li",
+        "text": "Biology"
+      },
+      {
+        "tag": "li",
+        "text": "Physics"
+      },
+      {
+        "tag": "li",
+        "text": "Chemistry"
+      },
+      {
+        "tag": "p",
+        "text": "Tuition varies. Confirm current fees and your timetable with admissions."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/programmes/exams",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "WAEC · NECO · JAMB"
+      },
+      {
+        "tag": "h1",
+        "text": "Walk into your next exam with a clearer plan."
+      },
+      {
+        "tag": "p",
+        "text": "Preparation should do more than fill your timetable. Our exam-focused programme helps you identify gaps, revisit important topics and practise under timed conditions—with feedback that makes your next attempt count."
+      },
+      {
+        "tag": "h2",
+        "text": "Knowledge that goes further."
+      },
+      {
+        "tag": "p",
+        "text": "WAEC, NECO and JAMB candidates who want structured preparation. Subject combinations are confirmed with admissions."
+      },
+      {
+        "tag": "li",
+        "text": "Revise important topics systematically."
+      },
+      {
+        "tag": "li",
+        "text": "Improve question interpretation and time management."
+      },
+      {
+        "tag": "li",
+        "text": "Use mock-test feedback to prioritise your next revision session."
+      },
+      {
+        "tag": "li",
+        "text": "Build a consistent study routine with academic guidance."
+      },
+      {
+        "tag": "h2",
+        "text": "How learning comes to life"
+      },
+      {
+        "tag": "h3",
+        "text": "Exam Preparation"
+      },
+      {
+        "tag": "p",
+        "text": "WAEC · NECO · JAMB"
+      },
+      {
+        "tag": "h4",
+        "text": "Your subjects"
+      },
+      {
+        "tag": "li",
+        "text": "English Language"
+      },
+      {
+        "tag": "li",
+        "text": "Mathematics"
+      },
+      {
+        "tag": "li",
+        "text": "Biology"
+      },
+      {
+        "tag": "li",
+        "text": "Chemistry"
+      },
+      {
+        "tag": "li",
+        "text": "Physics"
+      },
+      {
+        "tag": "p",
+        "text": "Tuition varies. Confirm current fees and your timetable with admissions."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/how-it-works",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "HOW IT WORKS"
+      },
+      {
+        "tag": "h1",
+        "text": "A clear beginning.A supported journey."
+      },
+      {
+        "tag": "p",
+        "text": "From the first conversation to the next breakthrough, here’s how learning at AFRISTEM is designed to work."
+      },
+      {
+        "tag": "h3",
+        "text": "Register"
+      },
+      {
+        "tag": "p",
+        "text": "Tell us about the learner, their goals and where they need support."
+      },
+      {
+        "tag": "h3",
+        "text": "Find the right fit"
+      },
+      {
+        "tag": "p",
+        "text": "A diagnostic assessment may help us understand their starting point."
+      },
+      {
+        "tag": "h3",
+        "text": "Get ready"
+      },
+      {
+        "tag": "p",
+        "text": "Receive your timetable, platform guidance and learning expectations."
+      },
+      {
+        "tag": "h3",
+        "text": "Learn & practise"
+      },
+      {
+        "tag": "p",
+        "text": "Join lessons, ask questions and put new ideas to work."
+      },
+      {
+        "tag": "h3",
+        "text": "Grow with guidance"
+      },
+      {
+        "tag": "p",
+        "text": "Use assessments and mentorship to make the next step count."
+      },
+      {
+        "tag": "h2",
+        "text": "A little preparation.A smoother start."
+      },
+      {
+        "tag": "p",
+        "text": "Before you apply, have the learner’s details, a parent or guardian’s contact information and your preferred programme ready."
+      },
+      {
+        "tag": "h3",
+        "text": "Your online learning checklist"
+      },
+      {
+        "tag": "li",
+        "text": "A smartphone, tablet or computer; a computer is recommended for coding."
+      },
+      {
+        "tag": "li",
+        "text": "A reliable internet connection and a quiet place to learn."
+      },
+      {
+        "tag": "li",
+        "text": "Time for scheduled lessons, practice and assignments."
+      },
+      {
+        "tag": "li",
+        "text": "An involved parent or guardian for learners under 18."
+      },
+      {
+        "tag": "li",
+        "text": "A willingness to ask questions. You don’t need all the answers."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/teachers",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "TEACH. MENTOR. MAKE A DIFFERENCE."
+      },
+      {
+        "tag": "h1",
+        "text": "Be the reasonsomeone believes they can."
+      },
+      {
+        "tag": "p",
+        "text": "We’re building a community of educators who make difficult concepts clearer—and ambitious futures feel closer."
+      },
+      {
+        "tag": "div",
+        "text": "MEET OUR EDUCATORS"
+      },
+      {
+        "tag": "h2",
+        "text": "Great learning beginswith people who care."
+      },
+      {
+        "tag": "p",
+        "text": "We are currently building our team of exceptional educators and mentors. Verified teacher profiles will be published as the team is confirmed."
+      },
+      {
+        "tag": "p",
+        "text": "If you are a subject specialist, experienced teacher or STEM professional with a gift for helping young people understand, we would love to hear from you."
+      },
+      {
+        "tag": "li",
+        "text": "Explain concepts with clarity and patience."
+      },
+      {
+        "tag": "li",
+        "text": "Create engaging, inclusive online lessons."
+      },
+      {
+        "tag": "li",
+        "text": "Use feedback to guide learning, not just score it."
+      },
+      {
+        "tag": "li",
+        "text": "Put child safeguarding and professional conduct first."
+      },
+      {
+        "tag": "div",
+        "text": "WHAT TO EXPECT"
+      },
+      {
+        "tag": "h2",
+        "text": "A considered recruitment process."
+      },
+      {
+        "tag": "h3",
+        "text": "Apply"
+      },
+      {
+        "tag": "p",
+        "text": "Share your qualifications, subjects, availability and approach to mentorship."
+      },
+      {
+        "tag": "h3",
+        "text": "Review"
+      },
+      {
+        "tag": "p",
+        "text": "Applications and credentials are reviewed. Shortlisted candidates may be invited to an interview and teaching demonstration."
+      },
+      {
+        "tag": "h3",
+        "text": "Prepare"
+      },
+      {
+        "tag": "p",
+        "text": "Appointments are subject to appropriate checks, agreed terms, safeguarding expectations and onboarding."
+      }
+    ]
+  },
+  {
+    "route": "/resources",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "THE CURIOSITY CORNER"
+      },
+      {
+        "tag": "h1",
+        "text": "A good question cantake you anywhere."
+      },
+      {
+        "tag": "p",
+        "text": "Explore original study guides, practical ideas and free STEM practice. No account needed. Just bring your curiosity."
+      },
+      {
+        "tag": "h3",
+        "text": "A study plan you can actually stick to"
+      },
+      {
+        "tag": "p",
+        "text": "Small, focused sessions. Clear goals. A little space to breathe."
+      },
+      {
+        "tag": "h3",
+        "text": "Fractions, without the frustration"
+      },
+      {
+        "tag": "p",
+        "text": "Learn why common denominators make adding fractions easier."
+      },
+      {
+        "tag": "h3",
+        "text": "Think like a scientist. Start at home."
+      },
+      {
+        "tag": "p",
+        "text": "A simple, safe observation activity to build scientific thinking."
+      },
+      {
+        "tag": "h3",
+        "text": "Your next mock exam is a map, not a verdict"
+      },
+      {
+        "tag": "p",
+        "text": "Turn the questions you miss into a more useful revision plan."
+      },
+      {
+        "tag": "h3",
+        "text": "Your first algorithm needs no computer"
+      },
+      {
+        "tag": "p",
+        "text": "Discover the thinking behind code with an everyday task."
+      },
+      {
+        "tag": "h3",
+        "text": "Learn online. Keep your information safe."
+      },
+      {
+        "tag": "p",
+        "text": "Practical habits for learners and the adults supporting them."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/resources/study-plan",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "Study skills · 4 MIN READ"
+      },
+      {
+        "tag": "h1",
+        "text": "A study plan you can actually stick to"
+      },
+      {
+        "tag": "p",
+        "text": "Small, focused sessions. Clear goals. A little space to breathe."
+      },
+      {
+        "tag": "h2",
+        "text": "Start with one specific goal"
+      },
+      {
+        "tag": "p",
+        "text": "“Study chemistry” is vague. “Explain the difference between an element and a compound” gives you a finish line. Choose one goal for each session."
+      },
+      {
+        "tag": "h2",
+        "text": "Try a simple weekly rhythm"
+      },
+      {
+        "tag": "p",
+        "text": "Monday: revisit a difficult topic. Tuesday: practise questions. Wednesday: review mistakes. Thursday: explain the topic aloud. Friday: take a short self-test. Keep sessions manageable and add breaks."
+      },
+      {
+        "tag": "h2",
+        "text": "Use recall, not just rereading"
+      },
+      {
+        "tag": "p",
+        "text": "Close your notes and write what you remember. Check the gaps, then try again. Recalling information helps you find what still needs work."
+      },
+      {
+        "tag": "h2",
+        "text": "Leave room to adjust"
+      },
+      {
+        "tag": "p",
+        "text": "If a topic takes longer than expected, move the plan—not your confidence. Share persistent difficulties with a teacher or mentor."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/resources/fractions",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "Mathematics · 3 MIN READ"
+      },
+      {
+        "tag": "h1",
+        "text": "Fractions, without the frustration"
+      },
+      {
+        "tag": "p",
+        "text": "Learn why common denominators make adding fractions easier."
+      },
+      {
+        "tag": "h2",
+        "text": "A fraction is a part of a whole"
+      },
+      {
+        "tag": "p",
+        "text": "In 3/4, the denominator 4 tells us the whole has four equal parts. The numerator 3 tells us we have three of those parts."
+      },
+      {
+        "tag": "h2",
+        "text": "Make the pieces the same size"
+      },
+      {
+        "tag": "p",
+        "text": "To add 1/2 and 1/4, first write 1/2 as 2/4. Now both fractions describe quarters, so 2/4 + 1/4 = 3/4."
+      },
+      {
+        "tag": "h2",
+        "text": "Try it yourself"
+      },
+      {
+        "tag": "p",
+        "text": "What is 1/3 + 1/6? Rewrite 1/3 as 2/6. Add the numerators: 2/6 + 1/6 = 3/6. Simplify to 1/2."
+      },
+      {
+        "tag": "h2",
+        "text": "A useful check"
+      },
+      {
+        "tag": "p",
+        "text": "Adding two positive fractions should give a larger value than either fraction alone. Draw a rectangle divided into equal parts if the answer feels uncertain."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/resources/science-everyday",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "Science · 4 MIN READ"
+      },
+      {
+        "tag": "h1",
+        "text": "Think like a scientist. Start at home."
+      },
+      {
+        "tag": "p",
+        "text": "A simple, safe observation activity to build scientific thinking."
+      },
+      {
+        "tag": "h2",
+        "text": "Begin with a question"
+      },
+      {
+        "tag": "p",
+        "text": "Does a paper towel absorb more water than ordinary writing paper? Turn a everyday observation into a question you can investigate."
+      },
+      {
+        "tag": "h2",
+        "text": "Make a fair comparison"
+      },
+      {
+        "tag": "p",
+        "text": "With an adult nearby, place equal-sized pieces of paper on a washable tray. Add the same small amount of water to each. Keep paper size and water amount the same."
+      },
+      {
+        "tag": "h2",
+        "text": "Observe and record"
+      },
+      {
+        "tag": "p",
+        "text": "Write down what you see after the same amount of time. Repeat the comparison. Use observations, not guesses, to explain the result. Keep water away from electrical devices."
+      },
+      {
+        "tag": "h2",
+        "text": "Think beyond the result"
+      },
+      {
+        "tag": "p",
+        "text": "What else could affect absorption? Paper thickness, texture or the amount of water? A useful investigation often leads to another good question."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/resources/exam-strategy",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "Exam preparation · 5 MIN READ"
+      },
+      {
+        "tag": "h1",
+        "text": "Your next mock exam is a map, not a verdict"
+      },
+      {
+        "tag": "p",
+        "text": "Turn the questions you miss into a more useful revision plan."
+      },
+      {
+        "tag": "h2",
+        "text": "Sort your mistakes"
+      },
+      {
+        "tag": "p",
+        "text": "Put each missed question into one of three groups: a concept you did not understand, a reading or calculation error, or a time-management problem. Different mistakes need different fixes."
+      },
+      {
+        "tag": "h2",
+        "text": "Relearn before repeating"
+      },
+      {
+        "tag": "p",
+        "text": "If the concept is unclear, revisit it with a teacher or trusted textbook. Doing ten more questions without understanding the method may reinforce the same mistake."
+      },
+      {
+        "tag": "h2",
+        "text": "Practise with purpose"
+      },
+      {
+        "tag": "p",
+        "text": "Try a few questions on the weakest topic. Explain each step, then complete a short timed set. Compare your reasoning with the answer explanation."
+      },
+      {
+        "tag": "h2",
+        "text": "Keep perspective"
+      },
+      {
+        "tag": "p",
+        "text": "One practice score is a snapshot, not a prediction. Look for patterns over several attempts, and ask your mentor for help choosing your priorities. These are original study tips, not official examination-board guidance."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/resources/coding-first",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "Digital skills · 3 MIN READ"
+      },
+      {
+        "tag": "h1",
+        "text": "Your first algorithm needs no computer"
+      },
+      {
+        "tag": "p",
+        "text": "Discover the thinking behind code with an everyday task."
+      },
+      {
+        "tag": "h2",
+        "text": "An algorithm is a set of steps"
+      },
+      {
+        "tag": "p",
+        "text": "Think about packing your school bag. You check the timetable, find each book, put it in the bag and check that nothing is missing. That is a sequence of instructions."
+      },
+      {
+        "tag": "h2",
+        "text": "Be precise"
+      },
+      {
+        "tag": "p",
+        "text": "“Get ready” is too broad for a computer. Break it into small, clear actions. What happens first? Which action depends on another?"
+      },
+      {
+        "tag": "h2",
+        "text": "Add a decision"
+      },
+      {
+        "tag": "p",
+        "text": "If tomorrow includes mathematics, pack your mathematics book. Otherwise, skip it. This is the idea behind a conditional statement."
+      },
+      {
+        "tag": "h2",
+        "text": "Try a challenge"
+      },
+      {
+        "tag": "p",
+        "text": "Write instructions for drawing a square. Ask someone to follow them exactly. If the result differs from your plan, improve the instructions. That is the beginning of debugging."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/resources/online-safety",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "Digital skills · 4 MIN READ"
+      },
+      {
+        "tag": "h1",
+        "text": "Learn online. Keep your information safe."
+      },
+      {
+        "tag": "p",
+        "text": "Practical habits for learners and the adults supporting them."
+      },
+      {
+        "tag": "h2",
+        "text": "Keep personal details private"
+      },
+      {
+        "tag": "p",
+        "text": "Do not share your home address, passwords or private photos in a classroom chat or public discussion. Ask a trusted adult before opening unfamiliar links."
+      },
+      {
+        "tag": "h2",
+        "text": "Use approved learning channels"
+      },
+      {
+        "tag": "p",
+        "text": "Keep teacher–learner communication on school-approved channels with appropriate parent or guardian involvement. You can say no to a request that makes you uncomfortable."
+      },
+      {
+        "tag": "h2",
+        "text": "Speak up early"
+      },
+      {
+        "tag": "p",
+        "text": "If someone behaves inappropriately, save relevant information safely and tell a trusted adult. Contact AFRISTEM through the published school contact details. If there is immediate danger, seek local emergency help."
+      },
+      {
+        "tag": "h2",
+        "text": "Make space for wellbeing"
+      },
+      {
+        "tag": "p",
+        "text": "Take screen breaks and use a comfortable study setup. A healthy online learning routine includes time away from the screen."
+      },
+      {
+        "tag": "div",
+        "text": "THEIR NEXT CHAPTER STARTS HERE"
+      },
+      {
+        "tag": "h2",
+        "text": "More than lessons.A brighter way forward."
+      },
+      {
+        "tag": "p",
+        "text": "Give your child the knowledge to progress—and the confidence to try."
+      }
+    ]
+  },
+  {
+    "route": "/faqs",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "YOUR QUESTIONS, ANSWERED"
+      },
+      {
+        "tag": "h1",
+        "text": "Clarity beforethe first class."
+      },
+      {
+        "tag": "p",
+        "text": "Everything from programme choices to learning from another country. If your question isn’t here, we’d love to help."
+      },
+      {
+        "tag": "summary",
+        "text": "Is AFRISTEM completely online?"
+      },
+      {
+        "tag": "p",
+        "text": "Yes. Lessons and learning activities are delivered online, so learners can join from home. A reliable internet connection and a suitable device are important."
+      },
+      {
+        "tag": "summary",
+        "text": "Which classes do you teach?"
+      },
+      {
+        "tag": "p",
+        "text": "We offer Primary 4–6, JSS 1–3, SSS 1–3 and intensive preparation for WAEC, NECO and JAMB. Choose a programme to see the subjects available."
+      },
+      {
+        "tag": "summary",
+        "text": "Are lessons live or recorded?"
+      },
+      {
+        "tag": "p",
+        "text": "Our teaching approach centres on scheduled live lessons, supported by recorded lessons and learning materials. Admissions will confirm the format and timetable for your chosen programme."
+      },
+      {
+        "tag": "summary",
+        "text": "Can learners join from outside Nigeria?"
+      },
+      {
+        "tag": "p",
+        "text": "You can apply from any country. Our academic pathways focus on Nigerian school levels and WAEC, NECO and JAMB preparation. Please confirm curriculum fit, time-zone compatibility and payment availability with admissions before enrolling."
+      },
+      {
+        "tag": "summary",
+        "text": "Does my child need a computer?"
+      },
+      {
+        "tag": "p",
+        "text": "You can browse and apply on a smartphone, tablet or computer. A computer is recommended for coding and some practical activities. Admissions can advise on the requirements for your programme."
+      },
+      {
+        "tag": "summary",
+        "text": "How much does it cost?"
+      },
+      {
+        "tag": "p",
+        "text": "The admission form fee is ₦1,000. Tuition varies by class and programme. Ask admissions for the current tuition, payment schedule and applicable terms before making a payment."
+      },
+      {
+        "tag": "summary",
+        "text": "What happens after I apply?"
+      },
+      {
+        "tag": "p",
+        "text": "We receive your application and contact you using the details you provide. Where appropriate, a diagnostic assessment helps us understand learning needs. We then confirm programme fit, fees, orientation and the timetable. Submission alone does not confirm enrolment."
+      },
+      {
+        "tag": "summary",
+        "text": "How do you support parents?"
+      },
+      {
+        "tag": "p",
+        "text": "Our approach includes assessment feedback and parent/guardian progress updates. The dedicated parent dashboard is planned for a later phase; it is not currently available."
+      },
+      {
+        "tag": "summary",
+        "text": "Will there be assignments and assessments?"
+      },
+      {
+        "tag": "p",
+        "text": "Yes. Assignments, quizzes, projects and tests help teachers identify strengths, address gaps and guide the next stage of learning. Activities vary by programme."
+      },
+      {
+        "tag": "summary",
+        "text": "Do you issue certificates?"
+      },
+      {
+        "tag": "p",
+        "text": "No. AFRISTEM does not currently issue certificates. We help learners prepare for school, certificate and entrance examinations; examination registration and awards are handled by the relevant bodies."
+      },
+      {
+        "tag": "summary",
+        "text": "Is this a replacement for my current school?"
+      },
+      {
+        "tag": "p",
+        "text": "Discuss your circumstances with admissions before making changes to existing schooling. The appropriate arrangement depends on the learner, programme and local education requirements."
+      },
+      {
+        "tag": "summary",
+        "text": "How can I join the teaching team?"
+      },
+      {
+        "tag": "p",
+        "text": "Complete the teacher application with your subjects, experience and availability. Include your CV and credentials for review. Application is not a guarantee of appointment."
+      }
+    ]
+  },
+  {
+    "route": "/fees",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "FEES & PAYMENTS"
+      },
+      {
+        "tag": "h1",
+        "text": "Clear information.Confident decisions."
+      },
+      {
+        "tag": "p",
+        "text": "Understand the cost before you commit. We keep the admission form fee separate from programme tuition."
+      },
+      {
+        "tag": "h2",
+        "text": "₦1,000 NGN"
+      },
+      {
+        "tag": "p",
+        "text": "One admission form fee. This does not include tuition or examination-board registration fees."
+      },
+      {
+        "tag": "h3",
+        "text": "Tuition depends on your programme."
+      },
+      {
+        "tag": "p",
+        "text": "Speak with admissions for the current tuition, payment schedule, timetable and refund terms before paying. No tuition figures have been assumed or estimated on this site."
+      },
+      {
+        "tag": "p",
+        "text": "International applicants: contact us to confirm available payment methods and programme fit. This checkout, when enabled, charges in Nigerian naira."
+      }
+    ]
+  },
+  {
+    "route": "/contact",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "LET’S TALK ABOUT WHAT’S POSSIBLE"
+      },
+      {
+        "tag": "h1",
+        "text": "Every good journeystarts with a conversation."
+      },
+      {
+        "tag": "p",
+        "text": "Choosing a programme, exploring teaching or simply curious about AFRISTEM? You’re in the right place."
+      },
+      {
+        "tag": "div",
+        "text": "REAL PEOPLE. READY TO HELP."
+      },
+      {
+        "tag": "h2",
+        "text": "A little guidancegoes a long way."
+      },
+      {
+        "tag": "h4",
+        "text": "Call or WhatsApp"
+      },
+      {
+        "tag": "h4",
+        "text": "Email us"
+      },
+      {
+        "tag": "h4",
+        "text": "Our office"
+      },
+      {
+        "tag": "p",
+        "text": "AFRISTEM, PCN Plaza, Opposite Stadium,Kpirikpiri, Abakaliki, Ebonyi State, Nigeria."
+      },
+      {
+        "tag": "h4",
+        "text": "Office hours"
+      },
+      {
+        "tag": "p",
+        "text": "Monday–Friday · 9:00 am–5:00 pmWest Africa Time (UTC+1)"
+      }
+    ]
+  },
+  {
+    "route": "/portal",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "THE NEXT CHAPTER OF AFRISTEM"
+      },
+      {
+        "tag": "h1",
+        "text": "More connected learning.Coming in a future phase."
+      },
+      {
+        "tag": "p",
+        "text": "We’re laying the foundations for a dedicated student, teacher and parent portal. It is not available yet."
+      },
+      {
+        "tag": "h3",
+        "text": "For students"
+      },
+      {
+        "tag": "p",
+        "text": "Classes, learning materials, assignments and progress in one place."
+      },
+      {
+        "tag": "h3",
+        "text": "For teachers"
+      },
+      {
+        "tag": "p",
+        "text": "A workspace for lessons, assessments and meaningful feedback."
+      },
+      {
+        "tag": "h3",
+        "text": "For parents"
+      },
+      {
+        "tag": "p",
+        "text": "A clearer view of attendance, progress and the support your child receives."
+      }
+    ]
+  },
+  {
+    "route": "/privacy",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "YOUR INFORMATION MATTERS"
+      },
+      {
+        "tag": "h1",
+        "text": "Privacy notice"
+      },
+      {
+        "tag": "p",
+        "text": "Transparent information for learners, families and educators."
+      },
+      {
+        "tag": "h2",
+        "text": "About this notice"
+      },
+      {
+        "tag": "p",
+        "text": "This is a draft operational notice for AFRISTEM Digital Science School. It must be reviewed and approved by the school before public launch. In development preview, use fictional details only. Contact info@afristemschools.org about privacy questions."
+      },
+      {
+        "tag": "h2",
+        "text": "Information we request"
+      },
+      {
+        "tag": "p",
+        "text": "Student applications request learner identity, age, location, academic needs and parent/guardian contact details. Teacher applications request professional background, availability and supporting PDF documents. Contact forms collect the details needed to respond to you. Do not submit medical diagnoses, identity documents or unnecessary sensitive information."
+      },
+      {
+        "tag": "h2",
+        "text": "How information is used"
+      },
+      {
+        "tag": "p",
+        "text": "Information is used to assess applications, respond to enquiries and organise admissions or recruitment. Authorised admissions staff can review applications and documents. Finance staff have restricted billing and payment access. School owners manage staff permissions and operational records. Submitting an application is not marketing consent. When configured, transactional emails provide application acknowledgements, status-update notices and payment receipts. There are no automated marketing campaigns or advertising analytics in this build."
+      },
+      {
+        "tag": "h2",
+        "text": "Children and guardians"
+      },
+      {
+        "tag": "p",
+        "text": "An adult must submit an application for a learner under 18. Learner contact details are optional. Parents and guardians should help ensure submitted details are accurate and appropriate."
+      },
+      {
+        "tag": "h2",
+        "text": "Storage, service providers and payments"
+      },
+      {
+        "tag": "p",
+        "text": "Applications are stored in the school server database; teacher PDFs are stored privately on that server. Hosting location and processors must be confirmed before launch. If enabled, Paystack handles payment details separately, and the configured SMTP service processes transactional notices for delivery. The school stores a transaction reference, amount, currency and verification status, not your card number. Opening WhatsApp uses a separate third-party service."
+      },
+      {
+        "tag": "h2",
+        "text": "Cookies and retention"
+      },
+      {
+        "tag": "p",
+        "text": "An essential staff session cookie expires after eight hours; inactivity expires access after 30 minutes. Named staff access, document downloads and important account changes are logged for accountability. Transactional email notices and SMTP acceptance records are stored in a private queue; SMTP acceptance does not guarantee inbox delivery. Public visitors do not need an account or tracking cookie. The school must set and publish approved retention periods before launch; this build has no automatic record-deletion schedule."
+      },
+      {
+        "tag": "h2",
+        "text": "Access, corrections and concerns"
+      },
+      {
+        "tag": "p",
+        "text": "Contact info@afristemschools.org to request access, correction or deletion, or to raise a privacy concern. The school may need to verify your identity and consider applicable legal obligations. A production privacy review must address Nigeria’s data protection requirements and any applicable international obligations."
+      }
+    ]
+  },
+  {
+    "route": "/terms",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "CLEAR EXPECTATIONS"
+      },
+      {
+        "tag": "h1",
+        "text": "Terms of use"
+      },
+      {
+        "tag": "p",
+        "text": "Transparent information for learners, families and educators."
+      },
+      {
+        "tag": "h2",
+        "text": "Draft for school approval"
+      },
+      {
+        "tag": "p",
+        "text": "These draft terms are an implementation starting point, not a substitute for legal review. The school must approve its service terms, cancellation rules and refund policy before accepting live payments."
+      },
+      {
+        "tag": "h2",
+        "text": "Using this website"
+      },
+      {
+        "tag": "p",
+        "text": "Use the website lawfully and respectfully. Do not submit false documents, attempt unauthorised access, upload harmful content or misuse another person’s details. An adult must complete applications for minors."
+      },
+      {
+        "tag": "h2",
+        "text": "Applications and admission"
+      },
+      {
+        "tag": "p",
+        "text": "Submitting a form or paying the admission form fee does not automatically confirm enrolment, programme availability or a teaching appointment. The team confirms fit, timetable, tuition and any assessment or verification requirements separately."
+      },
+      {
+        "tag": "h2",
+        "text": "Fees and payment"
+      },
+      {
+        "tag": "p",
+        "text": "The admission form fee in the supplied school blueprint is ₦1,000. Tuition varies and must be confirmed with admissions. No refund rule has been assumed here: obtain the school’s approved written terms before paying. Payment services remain disabled until configured by the school."
+      },
+      {
+        "tag": "h2",
+        "text": "Learning and examinations"
+      },
+      {
+        "tag": "p",
+        "text": "Learning outcomes depend on many factors, including attendance, practice and individual circumstances. No result, admission to another institution or examination score is guaranteed. AFRISTEM does not currently issue certificates and is not an examination board."
+      },
+      {
+        "tag": "h2",
+        "text": "Educational resources"
+      },
+      {
+        "tag": "p",
+        "text": "Free guides and quizzes are original learning aids, not official WAEC, NECO or JAMB questions. Use them for personal learning. Check programme-specific guidance with a teacher."
+      },
+      {
+        "tag": "h2",
+        "text": "Availability and planned services"
+      },
+      {
+        "tag": "p",
+        "text": "The student, teacher and parent LMS portals and live classroom platform are planned future services, not features available in this release. Internet and device access are the learner’s responsibility unless separately agreed."
+      }
+    ]
+  },
+  {
+    "route": "/safeguarding",
+    "blocks": [
+      {
+        "tag": "div",
+        "text": "SAFE TO ASK. SAFE TO LEARN."
+      },
+      {
+        "tag": "h1",
+        "text": "Child safeguarding approach"
+      },
+      {
+        "tag": "p",
+        "text": "Transparent information for learners, families and educators."
+      },
+      {
+        "tag": "h2",
+        "text": "A foundation, not a box to tick"
+      },
+      {
+        "tag": "p",
+        "text": "This draft sets out the safeguards AFRISTEM should operationalise before teaching begins. The school must approve the policy, appoint a safeguarding lead, verify reporting contacts and train staff before launch."
+      },
+      {
+        "tag": "h2",
+        "text": "Respectful learning spaces"
+      },
+      {
+        "tag": "p",
+        "text": "No bullying, harassment, humiliating feedback, sexualised conduct, discrimination or threats should be tolerated. Lessons and feedback should be age-appropriate and respectful. Learners should know they can speak up without being blamed."
+      },
+      {
+        "tag": "h2",
+        "text": "Teacher–learner communication"
+      },
+      {
+        "tag": "p",
+        "text": "Use school-approved channels with appropriate guardian visibility. Do not ask learners to move to private or secret conversations, share personal photographs or disclose unnecessary private information. One-to-one arrangements must follow the school’s approved supervision rules."
+      },
+      {
+        "tag": "h2",
+        "text": "Safer recruitment"
+      },
+      {
+        "tag": "p",
+        "text": "Verify identity, qualifications, references and applicable background checks before appointments. Require a code of conduct, safeguarding training and a clear procedure for responding to concerns. Submitted documents alone are not proof that checks have been completed."
+      },
+      {
+        "tag": "h2",
+        "text": "Recording and media consent"
+      },
+      {
+        "tag": "p",
+        "text": "Explain whether lessons will be recorded, who can access recordings and how long they are kept. Obtain appropriate guardian permission and learner assent for photography, recordings or promotional use. Do not treat application consent as permission to use a child’s image."
+      },
+      {
+        "tag": "h2",
+        "text": "Raise a concern"
+      },
+      {
+        "tag": "p",
+        "text": "A learner should tell a trusted adult if something feels wrong. Contact the school at info@afristemschools.org or +234 810 554 1242 and state that the matter concerns safeguarding. These are the supplied general school contacts, not a verified emergency service. In immediate danger, seek help from local emergency services. The school must publish an independent escalation route before launch."
+      },
+      {
+        "tag": "h2",
+        "text": "Responsible handling"
+      },
+      {
+        "tag": "p",
+        "text": "Share concerns only with authorised people who need the information to protect the learner. Record facts accurately, preserve relevant evidence safely, and do not promise absolute secrecy or investigate allegations informally. Follow applicable reporting duties and specialist guidance."
+      }
+    ]
+  }
+]

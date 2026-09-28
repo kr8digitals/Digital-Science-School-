@@ -1,0 +1,10 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {studentSchema,teacherSchema,contactSchema} from './validation.js';
+const student={name:'Test Learner',dob:'2012-03-12',gender:'',email:'',phone:'',location:'Aba',country:'Nigeria',school:'',currentClass:'JSS 2',programme:'JSS 2',subjects:'Mathematics',performance:'',support:'',guardianName:'Test Guardian',relationship:'Parent',guardianPhone:'+2348000000000',guardianEmail:'TEST@example.com',whatsapp:'',address:'Test address',expectations:'',source:'',device:'Computer',internet:'Reliable',timezone:'Africa/Lagos',consent:true,website:''};
+test('student application accepts optional learner contacts and normalises guardian email',()=>{const result=studentSchema.parse(student);assert.equal(result.guardianEmail,'test@example.com');});
+test('student rejects missing guardian consent',()=>assert.equal(studentSchema.safeParse({...student,consent:false}).success,false));
+test('student rejects future date of birth',()=>assert.equal(studentSchema.safeParse({...student,dob:'2099-01-01'}).success,false));
+test('student rejects unknown programme',()=>assert.equal(studentSchema.safeParse({...student,programme:'made-up'}).success,false));
+test('student rejects honeypot input',()=>assert.equal(studentSchema.safeParse({...student,website:'spam'}).success,false));
+test('contact validates email and message length',()=>{assert.equal(contactSchema.safeParse({name:'Test',email:'invalid',phone:'',subject:'Hi',message:'Short',consent:true}).success,false);});
+test('teacher application rejects incomplete professional profile',()=>assert.equal(teacherSchema.safeParse({name:'Teacher',email:'test@example.com',consent:true}).success,false));
+test('student rejects impossible calendar dates',()=>assert.equal(studentSchema.safeParse({...student,dob:'2012-02-31'}).success,false));

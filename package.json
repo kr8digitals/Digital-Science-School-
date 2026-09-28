@@ -1,0 +1,51 @@
+{
+  "name": "afristem-digital-school",
+  "version": "2.1.0",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "node server/index.js",
+    "start": "node app.js",
+    "build": "vite build",
+    "test": "node --test server/*.test.js",
+    "test:e2e": "node tests/flows.mjs",
+    "export:copy": "node scripts/export-copy.mjs",
+    "backup": "node scripts/backup.mjs",
+    "restore": "node scripts/restore.mjs",
+    "staff:recover": "node scripts/recover-staff.mjs",
+    "check:config": "node scripts/check-config.mjs",
+    "test:staff": "node tests/staff-flows.mjs",
+    "test:deploy": "node scripts/deployment-smoke.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "description": "AFRISTEM Digital Science School \u2014 Node.js admissions platform",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "compression": "^1.8.2",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "lucide-react": "^1.48.0",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.12",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^6.4.3"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  }
+}
