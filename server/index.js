@@ -6,6 +6,6 @@ if(!config.production){const {createServer}=await import('vite');const vite=awai
  app.use(express.static(path.join(root,'dist'),{maxAge:'1h',setHeaders:(res,file)=>{if(file.endsWith('.html'))res.setHeader('Cache-Control','no-cache');}}));
  app.get('/{*path}',(_req,res)=>{res.set('Cache-Control','no-cache');res.sendFile(path.join(root,'dist','index.html'));});
 }
-const server=app.listen(config.port,'0.0.0.0',()=>console.log(`AFRISTEM v2.2 is listening on port ${config.port}. ${config.publicOnly?'Public website only':config.live?'Live':'Preview'} mode; email ${config.mailMode}; payments ${config.paymentsEnabled?'enabled':'disabled'}.`));mail?.start();
+const server=app.listen(config.port,'0.0.0.0',()=>console.log(`AFRISTEM v2.2.1 is listening on port ${config.port}. ${config.publicOnly?'Public website only':config.live?'Live':'Preview'} mode; email ${config.mailMode}; payments ${config.paymentsEnabled?'enabled':'disabled'}.`));mail?.start();
 let closing=false;async function shutdown(){if(closing)return;closing=true;const deadline=setTimeout(()=>process.exit(1),35000);deadline.unref();await new Promise(resolve=>server.close(resolve));await mail?.stop();if(db){db.pragma('wal_checkpoint(TRUNCATE)');db.close();}process.exit(0);}
 process.on('SIGTERM',shutdown);process.on('SIGINT',shutdown);

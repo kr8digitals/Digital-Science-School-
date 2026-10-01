@@ -19,8 +19,9 @@ const env={PATH:process.env.PATH,HOME:process.env.HOME,NODE_ENV:'production',POR
  LAUNCH_MODE:'preview',PUBLIC_URL:'https://deployment-test.example.com',PAYMENTS_ENABLED:'false',
  MAIL_DELIVERY:'off',ADMIN_EMAIL:'deployment-test@example.com',ADMIN_PASSWORD:randomBytes(32).toString('base64url')};
 let child;
-async function start(){
- child=spawn(process.execPath,['app.js'],{env,stdio:['ignore','pipe','pipe']});
+async function start(loader='node'){
+ const args=loader==='require'?['--eval',"require('./app.js')"]:['app.js'];
+ child=spawn(process.execPath,args,{env,stdio:['ignore','pipe','pipe']});
  await new Promise((resolve,reject)=>{
   let logs='';const timer=setTimeout(()=>reject(Error('Production startup timed out. '+logs)),20000);
   const done=error=>{clearTimeout(timer);error?reject(error):resolve();};
@@ -54,6 +55,11 @@ try{
  fs.writeFileSync(pdf,'%PDF-1.4\nFictional deployment QA\n%%EOF');
  db.prepare('INSERT INTO documents VALUES(?,?,?,?)').run(document,'EDU-DEPLOY-QA','QA.pdf',pdf);db.close();
  await start();assert.equal((await fetch(base+'/api/health')).status,200);await stop();
+ // Hostinger/LiteSpeed-style loading, not only the standalone Node command.
+ await start('require');
+ assert.equal((await (await fetch(base+'/api/health')).json()).version,'2.2.1');
+ assert.equal((await fetch(base+'/')).status,200);
+ assert.equal((await fetch(base+'/api/admin/me')).status,401);await stop();
  const reopened=new Database(path.join(temporary,'school.sqlite'),{readonly:true});
  assert.equal(reopened.prepare('SELECT id FROM staff WHERE role=?').get('owner').id,owner.id);
  assert.equal(reopened.prepare('SELECT count(*) AS total FROM applications WHERE id=?').get('EDU-DEPLOY-QA').total,1);
@@ -67,6 +73,11 @@ try{
  assert.equal((await (await fetch(base+'/api/content')).json()).operationsReady,false);
  assert.equal((await fetch(base+'/api/applications/student',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'})).status,503);
  assert.equal((await fetch(base+'/api/admin/me')).status,503);await stop();
- console.log('Deployment smoke passed: zero-variable public startup; configured full startup; compiled routes/assets; protected staff API; clean shutdown; database and PDF preservation across restart.');
+ await start('require');
+ assert.equal((await fetch(base+'/')).status,200);
+ assert.equal((await (await fetch(base+'/api/health')).json()).version,'2.2.1');
+ assert.equal((await (await fetch(base+'/api/health')).json()).mode,'public-only');
+ assert.equal((await fetch(base+'/api/admin/me')).status,503);await stop();
+ console.log('Deployment smoke passed: standalone Node AND require() startup in both public-only and configured modes; compiled routes/assets; protected staff API; clean shutdown; database and PDF preservation across restart.');
  console.log('This local test does not verify Hostinger filesystem persistence across redeploys.');
 }finally{await stop();fs.rmSync(temporary,{recursive:true,force:true});}

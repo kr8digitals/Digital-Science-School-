@@ -19,7 +19,7 @@ export async function createApplication({db,config,provider,transport,disableRat
  const loginLimit=limiter({windowMs:15*60000,limit:15,message:{error:'Too many sign-in attempts. Please try again in 15 minutes.'}});
  const paymentLimit=limiter({windowMs:15*60000,limit:30,message:{error:'Too many payment checks. Wait before trying again.'}});
  function save(kind,payload,id=ref(kind==='student'?'ADS':kind==='teacher'?'EDU':'MSG')){const email=kind==='student'?payload.guardianEmail:payload.email;db.prepare('INSERT INTO applications(id,kind,name,email,payload) VALUES(?,?,?,?,?)').run(id,kind,payload.name,email,JSON.stringify(payload));const notification=mail.application({id,email,kind});return {reference:id,notification};}
- app.get('/api/health',(_req,res)=>{db.prepare('SELECT 1').get();res.json({ok:true,version:'2.2.0'});});
+ app.get('/api/health',(_req,res)=>{db.prepare('SELECT 1').get();res.json({ok:true,version:'2.2.1'});});
  app.get('/api/content',(_req,res)=>res.json({programmes,faqs,resources,operationsReady:true,preview:!config.live,paymentsEnabled:config.paymentsEnabled,emailEnabled:mail.enabled,admissionFee:1000}));
  app.get('/api/quiz',(_req,res)=>res.json(quiz.map(({answer,explanation,...q})=>q)));
  app.post('/api/quiz/grade',(req,res)=>{const a=req.body?.answers;if(!Array.isArray(a)||a.length!==quiz.length||a.some(v=>!Number.isInteger(v)||v<0||v>3))return res.status(400).json({error:'Answer all five questions first.'});res.json({score:a.filter((v,i)=>v===quiz[i].answer).length,total:quiz.length,review:quiz.map((q,i)=>({...q,selected:a[i]}))});});
@@ -70,7 +70,7 @@ export async function createApplication({db,config,provider,transport,disableRat
  app.post('/api/admin/notifications/test',owner,(req,res)=>{if(!mail.enabled)return res.status(409).json({error:'Email delivery is disabled. Configure SMTP on the server first.'});const id=randomUUID();mail.enqueue({key:'test:'+id,recipient:req.staff.email,subject:'AFRISTEM — email configuration check',body:'This is the test email you requested from your AFRISTEM staff workspace. SMTP acceptance is not proof of inbox delivery. Confirm that you received this message.',kind:'configuration_test'});audit(db,req.staff,'email.test_requested',id);res.json({ok:true,message:config.live?'A test message is queued to your staff email.':'A test message is queued to the configured preview recipient.'});});
  app.get('/api/admin/readiness',owner,(_req,res)=>{
   let backup=null;try{backup=JSON.parse(fs.readFileSync(path.join(config.data,'backup-status.json'),'utf8'));}catch{}
-  res.json({mode:config.live?'live':'preview',version:'2.2.0',checks:[
+  res.json({mode:config.live?'live':'preview',version:'2.2.1',checks:[
    {id:'storage',title:'Persistent private storage',ok:!!config.persistentStorageConfirmed,detail:'Required for Hostinger: keep the database and PDFs outside managed deployment folders. Confirm with the host; a checkbox cannot prove persistence.'},
    {id:'https',title:'Deployment address',ok:config.publicUrl.startsWith('https://'),detail:config.publicUrl||'Set the actual HTTPS PUBLIC_URL. This checks configuration, not external certificate reachability.'},
    {id:'policies',title:'School policy approval',ok:config.policiesApproved,detail:'Owner attestation via POLICIES_APPROVED. Requires real privacy, safeguarding and refund-policy review.'},

@@ -11,7 +11,7 @@ export function createPublicApplication(config){
  app.use(compression());
  app.use('/api',(_req,res,next)=>{res.set('Cache-Control','no-store');next();});
  app.use('/api',rateLimit({windowMs:60000,limit:150,standardHeaders:'draft-7',legacyHeaders:false,message:{error:'Too many requests. Please wait a minute.'}}));
- app.get('/api/health',(_req,res)=>res.json({ok:true,version:'2.2.0',mode:'public-only',admissionsReady:false}));
+ app.get('/api/health',(_req,res)=>res.json({ok:true,version:'2.2.1',mode:'public-only',admissionsReady:false}));
  app.get('/api/content',(_req,res)=>res.json({programmes,faqs,resources,operationsReady:false,preview:true,paymentsEnabled:false,emailEnabled:false,admissionFee:1000}));
  app.get('/api/quiz',(_req,res)=>res.json(quiz.map(({answer,explanation,...q})=>q)));
  app.post('/api/quiz/grade',express.json({limit:'2kb'}),(req,res)=>{

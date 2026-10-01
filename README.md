@@ -1,4 +1,4 @@
-# AFRISTEM Digital Science School — v2.2
+# AFRISTEM Digital Science School — v2.2.1
 
 The Node.js + React rebuild now includes **launch-readiness operations**: named staff accounts, role-restricted access, payment-attempt protection, durable transactional email, and recovery tooling. The orange / cream / deep-brown / white public website remains intact.
 
@@ -35,7 +35,7 @@ npm run build
 npm start
 ```
 
-With no `DATA_DIR`, production starts in stateless public-only mode. To activate admissions/staff operations, use the private persistent storage and first-owner settings in `docs/CONFIGURATION.md`. Use a private persistent volume for `DATA_DIR`. The server listens on `0.0.0.0:3000`, serves frontend and API on the same origin, and uses no browser-side localhost URLs. `npm start` uses the cross-platform production entry point `app.js`; it refuses to start without the compiled frontend. Use the platform-provided `PORT` on managed hosting.
+With no `DATA_DIR`, production starts in stateless public-only mode. To activate admissions/staff operations, use the private persistent storage and first-owner settings in `docs/CONFIGURATION.md`. Use a private persistent volume for `DATA_DIR`. The server listens on `0.0.0.0:3000`, serves frontend and API on the same origin, and uses no browser-side localhost URLs. `npm start` uses the cross-platform production entry point `app.js`; it refuses to start without the compiled frontend. The entry also supports process managers loading it with `require()`; asynchronous server initialization is dynamically imported, with no top-level await in the entry’s static module graph. Use the platform-provided `PORT` on managed hosting.
 
 Keep `LAUNCH_MODE=preview` until actual launch approval. Compilation/production serving and live business operation are separate settings.
 

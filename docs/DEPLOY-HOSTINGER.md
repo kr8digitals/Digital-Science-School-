@@ -1,4 +1,4 @@
-# AFRISTEM — simpler Hostinger deployment, v2.2
+# AFRISTEM — simpler Hostinger deployment, v2.2.1
 
 ## Initial public website: no custom environment variables
 
@@ -21,6 +21,16 @@ The platform can supply its own `PORT`. Production mode is set by the entry poin
 The `.env.example` that exposed a long list of optional keys has been removed. Reference values are now in [CONFIGURATION.md](CONFIGURATION.md), not an environment template.
 
 **Existing hPanel import:** Hostinger may retain the keys it discovered from the old revision. Refresh/re-import the updated source rather than filling in 21 optional values. Blank optional values are supported for this initial public startup. Repository changes cannot delete values already saved in your hosting account. Do not clear real storage/credentials from an existing operational deployment.
+
+## v2.2.1 startup hotfix and 503 diagnosis
+
+The production entry no longer uses top-level `await`. Calling `require('./app.js')` on v2.2.0 reproduced `ERR_REQUIRE_ASYNC_MODULE` on Node 22, before any HTTP listener could start. v2.2.1 uses a dynamic import with error handling, so the same entry works with both a CommonJS-style process-manager loader and `node app.js`. No entry-file change is needed.
+
+Redeploy `main` at the v2.2.1 hotfix commit. Keep **Express / Node 22 / root ./ / build npm run build / entry app.js**. A successful build alone does not establish successful runtime startup. Check `/api/health` for `version: 2.2.1` and the homepage for HTTP 200. A host-generated HTML 503 on the homepage or health endpoint means the public Node server is not reachable; it is different from the deliberate JSON `SETUP_REQUIRED` response on gated operations.
+
+If a 503 remains after the correct revision is live, obtain the runtime/application startup error and deployment settings from hPanel or Hostinger support. Check missing `dist/index.html`, wrong entry/output settings, invalid existing environment values, unavailable dependencies, port conflicts and resource limits rather than repeatedly redeploying blindly. Do not share provider secrets or use unverified storage paths to suppress an error.
+
+The smoke suite now exercises both standalone startup and `require()` startup, in public-only and configured modes. It verifies local loader compatibility, not access to the host’s private runtime logs or account configuration.
 
 ## Exactly what works without configuration
 
