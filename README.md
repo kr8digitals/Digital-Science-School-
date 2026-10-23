@@ -129,7 +129,7 @@ The recovery tool never creates/elevates or reactivates accounts. It writes a te
 
 ## Deployment
 
-**Vercel:** follow [the Vercel guide](docs/DEPLOY-VERCEL.md). The React build is served statically from `dist/` and `/api/*` runs as one serverless function (`api/[...path].js`). Functions have no persistent disk, so this target runs **public-only mode without a database**: the website, resources and quiz work; applications, tracking, payments and staff access answer 503 until a persistent data layer exists. Live site: `https://digitalschool.afristemglobal.org`.
+**Vercel:** follow [the Vercel guide](docs/DEPLOY-VERCEL.md). The React build is served statically from `dist/` and `/api/*` runs as one serverless function (`api/index.js`, reached through an explicit rewrite). Functions have no persistent disk, so this target runs **public-only mode without a database**: the website, resources and quiz work; applications, tracking, payments and staff access answer 503 until a persistent data layer exists. Live site: `https://digitalschool.afristemglobal.org`.
 
 **Hostinger:** follow [the full-stack deployment guide](docs/DEPLOY-HOSTINGER.md). Select the **Express** backend preset, not React/Vite static hosting. Build with `npm run build`, start with `npm start`, entry file `app.js`, Node 22. Keep the entire application root as the backend output.
 
@@ -165,7 +165,7 @@ Browser tests create fictional development records. Do not point them at a live 
 ## Files to know
 
 - `app.js`: production entry point (Hostinger / npm start).
-- `api/[...path].js`, `vercel.json`: stateless Vercel deployment (public website only, no database).
+- `api/index.js`, `vercel.json`: stateless Vercel deployment (public website only, no database).
 - `docs/DEPLOY-HOSTINGER.md`: managed Node.js and VPS setup, storage gates and acceptance tests.
 - `docs/DEPLOY-VERCEL.md`: Vercel project settings, domain setup and the no-database constraint.
 - `server/app.js`: HTTP endpoints, role restrictions, public admissions, staff operations.

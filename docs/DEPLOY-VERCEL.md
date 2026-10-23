@@ -7,7 +7,7 @@ Target: **https://digitalschool.afristemglobal.org** (Vercel project `afristem-d
 | Piece | Where | Notes |
 |---|---|---|
 | Public website (React + Vite) | Static build in `dist/` | Built by `npm run build` on every deployment. |
-| API (`/api/*`) | One serverless function, `api/[...path].js` | Wraps `server/public-app.js` with Express. |
+| API (`/api/*`) | One serverless function, `api/index.js` | Wraps `server/public-app.js` with Express. |
 | Everything else | SPA fallback to `dist/index.html` | Keeps deep links such as `/programmes/primary` working. |
 
 Vercel functions have **no persistent local disk**, so this target runs the
@@ -19,7 +19,13 @@ application's existing **public-only mode**:
 - **No database is created.** `better-sqlite3` is never loaded by the function,
   and no SQLite file is written to the ephemeral filesystem.
 
-`api/[...path].js` resolves configuration with `publicOnly: true` on purpose:
+Vercel's plain `api/` directory only matches **one path segment per file** (a
+`[...path].js` file is not a multi-segment catch-all there), so `vercel.json`
+rewrites every `/api/*` request to the single function at `/api` with the original
+suffix in `?__path=`. `api/index.js` restores that path before Express routes the
+request, which keeps multi-segment routes such as `/api/admin/login` working.
+
+`api/index.js` resolves configuration with `publicOnly: true` on purpose:
 merely setting `DATA_DIR` on Vercel must not create an admissions database that
 silently disappears on the next deployment.
 
@@ -64,7 +70,7 @@ NODE_ENV=production node app.js   # no DATA_DIR => public-only, no database
 Or run the serverless wrapper exactly as Vercel does:
 
 ```bash
-node --input-type=module -e "import http from 'node:http';import app from './api/[...path].js';http.createServer(app).listen(3000,'0.0.0.0')"
+node --input-type=module -e "import http from 'node:http';import handler from './api/index.js';http.createServer(handler).listen(3000,'0.0.0.0')"
 ```
 
 ## Opening admissions later
